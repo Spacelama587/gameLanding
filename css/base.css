@@ -736,8 +736,35 @@ h2 {
   }
   
 
+  
+  .footer {
 
-  footer a {
+	padding: 20px 0;
+	text-align: center;
+}
+.social-media {
+	list-style-type: none;
+	padding: 0;
+}
+.social-media li {
+	display: inline;
+	margin: 0 10px;
+}
+.social-media a {
+	color: white;
+	text-decoration: none;
+}
+.social-media a:hover {
+	color: #ff4081;
+}
+@media (max-width: 600px) {
+	.social-media li {
+		display: block;
+		margin: 10px 0;
+	}
+}
+
+ footer a {
 	text-decoration: none;
 	color: rgba(255, 255, 255, 0.6);
 	font-family: "Inter", sans-serif;
@@ -745,5 +772,5 @@ h2 {
 	font-weight: 400;
 	line-height: 170%;
   }
-  
+   */
  
